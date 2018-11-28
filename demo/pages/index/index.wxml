@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+    <odometer id="odometer" odometer-class="odometer" value-class="odometer-value" />
+</view>

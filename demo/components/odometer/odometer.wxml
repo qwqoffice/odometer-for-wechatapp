@@ -1,0 +1,20 @@
+<!--components/odometer/odometer.wxml-->
+
+<view class="odometer odometer-class {{show ? 'odometer-show' : ''}} {{animate ? 'odometer-animating' : ''}} {{animateDirection == 'up' ? 'odometer-animating-up' : 'odometer-animating-down'}}">
+    <view class="odometer-inside">
+        <block wx:for="{{digits}}" wx:for-item="values" wx:key="">
+            <view class="odometer-digit">
+                <view class="odometer-digit-spacer value-class">8</view>
+                <view class="odometer-digit-inner">
+                    <view class="odometer-ribbon">
+                        <view class="odometer-ribbon-inner" style="transition: {{!animate ? 'none' : 'transform ' + duration + 'ms'}}">
+                            <block wx:for="{{values}}" wx:key="">
+                                <view class="odometer-value value-class {{index == 0 ? 'odometer-first-value' : ''}} {{index == values.length -1 ? 'odometer-last-value' : ''}}">{{item}}</view>
+                            </block>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </block>
+    </view>
+</view>
