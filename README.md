@@ -4,6 +4,11 @@
 
 ![odometer微信小程序版](https://www.qwqoffice.com/attached/image/20181128/20181128094219_37080.gif "odometer微信小程序版")
 
+## 案例
+卡片读心术小程序
+
+![卡片读心术小程序](https://www.qwqoffice.com/assets/images/thought-reader-card-qrcode.jpg "卡片读心术小程序")
+
 ## 参考
 
 odometer [https://github.com/HubSpot/odometer](https://github.com/HubSpot/odometer "https://github.com/HubSpot/odometer")
